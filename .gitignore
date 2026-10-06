@@ -1,0 +1,19 @@
+# geheimen
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# resultaten en lokale data
+runs/
+*.db
+
+# editor en systeem
+.DS_Store
+*.swp
