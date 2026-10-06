@@ -19,11 +19,11 @@ De algebralessen staan in [../wiskunde/](../wiskunde/). Totaal ongeveer 8,25 uur
 ## Voortgang
 
 ### Dag 1: omgeving
-- [ ] `uv` geïnstalleerd en project `llm-lab` aangemaakt
-- [ ] API-key in `.env`, uitgavenlimiet ingesteld
-- [ ] `git check-ignore .env` bevestigt dat `.env` genegeerd wordt
-- [ ] `hello.py` print antwoord en tokengebruik
-- [ ] Eerste commit gepusht
+- [x] `uv` geïnstalleerd en project `llm-lab` aangemaakt
+- [x] API-key in `.env`, uitgavenlimiet ingesteld
+- [x] `git check-ignore .env` bevestigt dat `.env` genegeerd wordt
+- [x] `hello.py` print antwoord en tokengebruik
+- [x] Eerste commit gepusht
 
 ### Dag 2: eerste calls
 - [ ] Je kunt in eigen woorden uitleggen waarom de API *stateless* is
