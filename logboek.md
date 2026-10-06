@@ -16,8 +16,11 @@ Volgende keer: ...
 
 <!-- Vul hieronder je eerste sessie in. Voorbeeld:
 
-2026-10-07  45 min  Omgeving opgezet
-Geleerd: een API-key hoort in .env en .env hoort in .gitignore voordat je commit.
-Volgende keer: eerste API-call en usage bekijken.
+2026-10-06  45 min  Omgeving opgezet
+Installed Python and VENV and prepared NVIM to use python
+experiment:
+1: The reason changes to to `max_tokens` instead of `end_turn`
+2: English uses less tokens than Dutch.
+3: Uitvoer tokens worden langer bij meer text
 
 -->

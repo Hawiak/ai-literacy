@@ -1,4 +1,4 @@
-# Dag 1 (wo 7 okt, 45 min): omgeving en eerste API-call
+1# Dag 1 (wo 7 okt, 45 min): omgeving en eerste API-call
 
 ## Doel
 
@@ -56,6 +56,7 @@ ANTHROPIC_API_KEY=sk-ant-...
 ```
 
 4. Maak ook een `.env.example` aan zonder echte waarde, zodat je later weet welke variabelen nodig zijn:
+:q
 
 ```text
 ANTHROPIC_API_KEY=
@@ -87,7 +88,9 @@ response = client.messages.create(
     messages=[{"role": "user", "content": "Leg event sourcing uit in drie zinnen."}],
 )
 
-print(response.content[0].text)
+for block in response.content:
+    if block["type"] == "message":
+        print(block["message"]["content"])
 print("tokens:", response.usage.input_tokens, "in,", response.usage.output_tokens, "uit")
 print("stop_reason:", response.stop_reason)
 ```
