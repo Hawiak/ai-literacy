@@ -26,10 +26,10 @@ De algebralessen staan in [../wiskunde/](../wiskunde/). Totaal ongeveer 8,25 uur
 - [x] Eerste commit gepusht
 
 ### Dag 2: eerste calls
-- [ ] Je kunt in eigen woorden uitleggen waarom de API *stateless* is
-- [ ] `chat.py` met system prompt, meerdere beurten en streaming
-- [ ] `/reset` en een tokenteller per sessie
-- [ ] Experimenten met `max_tokens` en `temperature` genoteerd
+- [x] Je kunt in eigen woorden uitleggen waarom de API *stateless* is
+- [x] `chat.py` met system prompt, meerdere beurten en streaming
+- [x] `/reset` en een tokenteller per sessie
+- [x] Experimenten met `max_tokens` en `temperature` genoteerd
 
 ### Dag 3: vacatures en algebra
 - [ ] 3 vacatures gelezen, `notes.md` ingevuld
